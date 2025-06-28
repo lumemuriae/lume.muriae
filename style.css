@@ -1,7 +1,87 @@
+
+:root {
+  --marrom-principal: #A87B5E;
+  --bege-claro: #F4E8D8;
+  --marrom-claro: #C4A28C;
+  --branco: #ffffff;
+}
+
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #f9f5f0;
-  color: #3e2b1f;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: var(--bege-claro);
+  color: var(--marrom-principal);
 }
-/* (demais estilos aqui...) */
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  background-color: var(--branco);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+header h1 {
+  font-weight: normal;
+  font-size: 2rem;
+  color: var(--marrom-principal);
+}
+
+nav a {
+  margin-right: 1rem;
+  color: var(--marrom-principal);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section h2 {
+  color: var(--marrom-principal);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+section p, section li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+footer {
+  background-color: var(--branco);
+  color: var(--marrom-claro);
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+/* Botão flutuante WhatsApp */
+.whatsapp-float {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--marrom-principal);
+  color: var(--branco);
+  border-radius: 50%;
+  text-align: center;
+  font-size: 28px;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  line-height: 55px;
+  transition: background 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  background-color: var(--marrom-claro);
+}
