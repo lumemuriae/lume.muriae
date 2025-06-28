@@ -1,0 +1,47 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f5f0;
+  color: #3e2b1f;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+}
+header.topo {
+  background-color: #a57c5b;
+  color: white;
+  padding: 20px 0;
+}
+header.topo nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+.galeria img {
+  width: 48%;
+  margin: 1%;
+}
+.rodape {
+  text-align: center;
+  padding: 20px;
+  background-color: #3e2b1f;
+  color: #fff;
+}
+.whatsapp-float {
+  position: fixed;
+  width: 220px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
+}
